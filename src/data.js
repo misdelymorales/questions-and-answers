@@ -1,28 +1,28 @@
 const questions = [
   {
     id: 1,
-    title: "¿Tengo que permitir el uso de cookies?",
-    info: "Unicornio vinilo poutine brooklyn, siguiente nivel comercio directo islandia. Chamán cobre taza iglesia-clave libro para colorear, lo que sea poutine normcore fixie cred kickstarter post-ironic street art.",
+    title: "¿Cómo agrego clases CSS a los componentes?",
+    info: "Pasa una string como la prop className",
   },
   {
     id: 2,
-    title: "¿Cómo cambio la contraseña de Mi página?",
-    info: "Libro para colorear fotomatón de forraje aburguesado lumbersexual. Migas chillwave poutine synth shoreditch, esmalte pin thundercats moda hacha techo fiesta polaroid chartreuse.",
+    title: "¿Puedo usar estilos en línea?",
+    info: "Sí, El atributo style acepta un objeto de Javascript con propiedades escritas en formato camelCase, en lugar de un string CSS. Esto es consistente con la propiedad DOM style en Javascript, es más eficiente y previene vulnerabilidades XSS.",
   },
   {
     id: 3,
-    title: "¿Qué es BankID?",
-    info: "Esmalte pin fam sostenible despertó cualquier venmo. Auténtico asimétrico ponle un pájaro, lumbersexual carbón activado parentesco banjo cred sartorial en escabeche.",
+    title: "¿Los estilos en línea son malos?",
+    info: "Las clases CSS son generalmente mejores para el rendimiento que los estilos en línea.",
   },
   {
     id: 4,
-    title: "¿De quién es el número de nacimiento que puedo usar?",
-    info: "'Bombilla Edison comercio directo gentrify barba lo-fi seitán techo sostenible fiesta franzen ocupar calamar. Suculentas de cronut de Knausgaard, lyft shabby chic listo para usar. Taza de cobre meh vegan gentrify.",
+    title: "¿Qué es CSS-in-JS?",
+    info: "'CSS-in-JS' se refiere a un patrón donde el CSS se compone usando JavaScript en lugar de definirlo en archivos externos. Ten en cuenta que esta funcionalidad no es parte de React, sino que es proporcionada por bibliotecas de terceros. React no tiene una opinión sobre cómo se definen los estilos; en caso de dudas, un buen punto de partida es definir tus estilos en un archivo *.css separado como de costumbre y referirse a ellos usando className.",
   },
   {
     id: 5,
-    title: "¿Cuándo recibo una contraseña ordenada por letra?",
-    info: "Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave chaleco cobre mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitán ",
+    title: "¿Puedo hacer animaciones en React?",
+    info: "React puede usarse para potenciar animaciones. Revisa React Transition Group, React Motion, React Spring o Framer Motion, por ejemplo.",
   },
 ];
 export default questions;
